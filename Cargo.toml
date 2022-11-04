@@ -1,0 +1,11 @@
+[package]
+name = "howis"
+version = "0.1.0"
+authors = ["Scallop Ye <yescallop@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = "4"
+curl = "0.4"
+wild = "2"
