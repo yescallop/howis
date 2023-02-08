@@ -148,7 +148,7 @@ fn main() -> Result<()> {
     let mut handle = Easy::new();
     handle.follow_location(true).unwrap();
     handle.unrestricted_auth(true).unwrap();
-    handle.cookie_list("").unwrap();
+    handle.cookie_file("").unwrap();
     if let Some(user) = matches.get_one::<String>("user") {
         handle.username(user).unwrap();
     }
